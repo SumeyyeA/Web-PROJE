@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+
+font{
+    float: left;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#container{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    
+}
+header{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 2px rgba(20,23, 28, .15);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+main{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#headerResim{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    opacity: 0.8;
+    
+}
+#centered{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 55px;
+    
+
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color:#f1f1f1 ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20,23, 28, .15);
+    margin-top: 15px;
+    overflow: auto;
+    
+}
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: #191919;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20,23, 28, .15);
+    margin-top: 15px;
+}
+
+h1{
+    text-align: center;
+    background-color: #191919;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20,23, 28, .15);
+
+}
+.section1{
+    width: 98%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.form{
+    width: 99%;
+    float: left;
+    height: 580px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 5px;
+}
+.col25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+.col75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+label{
+    
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type-text],textarea{
+    width: 45%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+input[type=submit]{
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    
+    
+    
+}
+
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+ 
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+      
+    }
+  }
+  .nav-item[role=button]{
+    float: right;
+  }
+  .mySlides {display:none;}
+  .display-left{
+      float: left;
+  }
+  .display-right{
+    float: right;
+}
+.mySlides{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.cv-main {
+    background-color:#e1e5ea;
+    padding: 60px;
+    font-family: Verdana;
+    border-radius: 8px;
+  }
+  .cv-h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #21094e;
+  }
+  
+  .sallyImage {
+    border-radius: 10px;
+    height: 260px;
+  }
+  
+  .cv-table {
+    font-family: Verdana, Serif, "Times New Roman";
+    border-collapse: collapse;
+    background-color: #666;
+    width: 60%;
+  }
+  
+  .cv-td,
+  .cv-th,
+  .cv-tr {
+    border: 1px solid white;
+    text-align: center;
+    padding: 4px;
+    height: 50px;
+    color: white;
+  }
+  
+  .cv-a {
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    font-family: Verdana;
+    border-radius: 8px;
+    border-color: white;
+  }
+  
+  .cv-a:hover {
+    background-color: white;
+    font-weight: bold;
+  }
+  .sehir-container{  
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+
+  .log-section{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+      
+  }
+.log-header{
+  background-color: darkslateblue;
+}
+.sehir-main{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#log-centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 55px;
+
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  
+}
+.jumbotron 
+{
+	padding-top: 100px;
+}
+label{
+  color: white;
+}
+.log-h2{
+  color: white;
+  font-size: 15px;
+}
+
+
+

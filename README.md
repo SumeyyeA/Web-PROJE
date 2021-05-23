@@ -1,4 +1,4 @@
-# Web-PROJE
+# Web-Teknolojileri-PROJE
 
 ###   Projenin Amacı:
 - Kendimi ve yaşadığım şehri tanıtan kişisel bir web sitesi geliştirmek.
@@ -6,36 +6,38 @@
 
 ###   İçerik:
 
-  ##### Ana Sayfada
-    - Diğer sayfalara ulaşılabilecek menü
-
   ##### Hakkında Sayfası
-    - Kişisel ilgi alanlarım vb. bilgiler
+  
+    - Kendimden ve hobilerimden bahsettiğim yazılar ile linkler
 
-  ##### Özgeçmiş Sayfası    
-    - Eğitim bilgileri table ve div kullanarak oluşturulmalı
+  ##### Özgeçmiş Sayfası  
+  
+    - Eğitim bilgileri olan cv niteliğinde sayfa
 
   ##### Şehrim Sayfası  
-    - Şehre ait kısa bir metin,
-    - En az 4 mekana ait fotoğrafın olduğu bir slider
-    - Slider daki resimlere tıklandığında resimlere ait içerik sayfaları açılmalı
+  
+    - Şehrimi tanıttığım resimler linkler ve yazılar 
 
   ##### Mirasımız Sayfası
-    - Şehirdeki kültürel bir mekanın tanıtımı 
+  
+    - Şehirdeki kültürel mirasın tanıtımı 
 
   ##### Login Sayfası
-    - Kullanıcıdan kullanıcı adı ve şifre istenmeli
-    - Kullanıcı adının mail olup olmadığı
+  
+    - Kullanıcı girişi sağlanan ve bilgileri kontrol eden alan
 
   ##### İletişim Sayfası
-    - Form elemanları kullanılmalı
-    - Kontrol işlemleri javascript ile yapılmalı
-    - Gönderilen form bilgileri başka bir sayfada görüntülenmeli
+  
+    - Kullanıcının mesaj ve kişisel bilgilerinin gönderilip kontrol edildiği form
 
 ###    Proje Süreci
-  - Projenin 4 farklı versiyonunu oluşturmayı planlıyorum.
+
     - İlk versiyonda sayfaların html dosyalarının yazılması ve gerekli dökumanın ve içeriğin toplanması.
     - Sayfaların tasarım kodlarının yazılması,
     - Gerekli javascript ve php dosyalarının tamamlanması,
-    - Ve son olarak eksik gördüğüm ve eklemek istediğim kısımların eklenmesi.
+    - Ve son olarak bir hostingde yayımlanması.
+    
+ ####  Site urlsi:
+    -g201210063.epizy.com
+    
 
